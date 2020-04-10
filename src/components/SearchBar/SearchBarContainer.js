@@ -7,8 +7,12 @@ const SearchBar = () => {
     <div className="search-bar-wrapper">
 
       <div className="image-wrapper">
-        <i className="fab fa-instagram iconMain" />
+  {/* add fa-3x to adjust size of icon  */}
+        <i className="fab fa-instagram iconMain fa-3x " 
+       
+        />
         <p className="logoText" style={{
+          //  added font and size to text
           fontFamily:"Grand Hotel",
           fontSize:"2rem",
         }}>Instagram</p>
