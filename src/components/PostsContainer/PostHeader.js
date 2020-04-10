@@ -8,9 +8,10 @@ const PostHeader = props => {
     <div className="post-header">
       <div className="post-thumb-wrapper">
         <img
-          alt="post header"
+          //thumb url not working from the dummyData file
           className="post-thumb"
           src={props.thumbnailUrl}
+          alt="post-header"
         />
       </div>
       <h2>{props.username}</h2>
