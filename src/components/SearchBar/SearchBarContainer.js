@@ -13,6 +13,7 @@ const SearchBar = () => {
           //  added font and size to text
           fontFamily:"Grand Hotel",
           fontSize:"2rem",
+          fontWeight:"bold",
         }}>Instagram</p>
       </div>
 
